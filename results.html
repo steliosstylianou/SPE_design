@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bristol Museum and Art Gallery</title>
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+   <link href="dist/css/flat-ui.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+
+            <div class="navbar-header">
+                <button button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" rel="home" href="index.html" title="Internet Museum System">
+                    <img style="max-width:100px; margin-top: -12px;"
+                         src="imu.PNG">
+                </a>
+            </div>
+
+            <div id="navbar" class="collapse navbar-collapse navbar-responsive-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+    			<form class="navbar-form navbar-right" role="search" method="get" id="searchform" action="">
+    				<div class="form-group">
+    					<input name="s" id="s" type="text" class="search-query form-control" autocomplete="off" placeholder="Search...">
+    				</div>
+    			</form>
+    		</div>
+
+        </div>
+    </div>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+
+        <div class="row" style="margin-top: 80px;">
+    		<div class="col-md-3">
+    			<div id="accordion" class="panel panel-primary behclick-panel">
+    				<div class="panel-heading">
+    					<h3 class="panel-title">Search for: ...... </h3>
+    				</div>
+    				<div class="panel-body" >
+    					<div class="panel-heading " >
+    						<h4 class="panel-title">
+    							<a data-toggle="collapse" href="#collapse0">
+    								<i class="indicator fa fa-caret-down" aria-hidden="true"></i> Price
+    							</a>
+    						</h4>
+    					</div>
+    					<div id="collapse0" class="panel-collapse collapse in" >
+    						<ul class="list-group">
+    							<li class="list-group-item">
+    								<div class="checkbox">
+    									<label>
+    										<input type="checkbox" value="">
+    										0 - 1000$
+    									</label>
+    								</div>
+    							</li>
+    							<li class="list-group-item">
+    								<div class="checkbox" >
+    									<label>
+    										<input type="checkbox" value="">
+    										1000$ - 2000$
+    									</label>
+    								</div>
+    							</li>
+    							<li class="list-group-item">
+    								<div class="checkbox"  >
+    									<label>
+    										<input type="checkbox" value="">
+    										2000$ - 6000$
+    									</label>
+    								</div>
+    							</li>
+    							<li class="list-group-item">
+    								<div class="checkbox"  >
+    									<label>
+    										<input type="checkbox" value="">
+    										More Than 6000$
+    									</label>
+    								</div>
+    							</li>
+    						</ul>
+    					</div>
+
+    					<div class="panel-heading " >
+    						<h4 class="panel-title">
+    							<a data-toggle="collapse" href="#collapse1">
+    								<i class="indicator fa fa-caret-down" aria-hidden="true"></i> Brand
+    							</a>
+    						</h4>
+    					</div>
+    					<div id="collapse1" class="panel-collapse collapse in" >
+    						<ul class="list-group">
+    							<li class="list-group-item">
+    								<div class="checkbox">
+    									<label>
+    										<input type="checkbox" value="">
+    										citroen
+    									</label>
+    								</div>
+    							</li>
+    							<li class="list-group-item">
+    								<div class="checkbox" >
+    									<label>
+    										<input type="checkbox" value="">
+    										benz
+    									</label>
+    								</div>
+    							</li>
+    							<li class="list-group-item">
+    								<div class="checkbox"  >
+    									<label>
+    										<input type="checkbox" value="">
+    										bmw
+    									</label>
+    								</div>
+    							</li>
+    						</ul>
+    					</div>
+    					<div class="panel-heading" >
+    						<h4 class="panel-title">
+    							<a data-toggle="collapse" href="#collapse3"><i class="indicator fa fa-caret-down" aria-hidden="true"></i> Color</a>
+    						</h4>
+    					</div>
+    					<div id="collapse3" class="panel-collapse collapse in">
+    						<ul class="list-group">
+    							<li class="list-group-item">
+    								<div class="checkbox">
+    									<label>
+    										<input type="checkbox" value="">
+    										red
+    									</label>
+    								</div>
+    							</li>
+    							<li class="list-group-item">
+    								<div class="checkbox" >
+    									<label>
+    										<input type="checkbox" value="">
+    										blue
+    									</label>
+    								</div>
+    							</li>
+    							<li class="list-group-item">
+    								<div class="checkbox"  >
+    									<label>
+    										<input type="checkbox" value="">
+    										green
+    									</label>
+    								</div>
+    							</li>
+    						</ul>
+    					</div>
+    					<div class="panel-heading" >
+    						<h4 class="panel-title">
+    							<a data-toggle="collapse" href="#collapse2"><i class="indicator fa fa-caret-right" aria-hidden="true"></i> Collapsible list group</a>
+    						</h4>
+    					</div>
+    					<div id="collapse2" class="panel-collapse collapse">
+    						<ul class="list-group">
+    							<li class="list-group-item">
+    								<div class="checkbox">
+    									<label>
+    										<input type="checkbox" value="">
+    										7
+    									</label>
+    								</div>
+    							</li>
+    							<li class="list-group-item">
+    								<div class="checkbox" >
+    									<label>
+    										<input type="checkbox" value="">
+    										8
+    									</label>
+    								</div>
+    							</li>
+    							<li class="list-group-item">
+    								<div class="checkbox">
+    									<label>
+    										<input type="checkbox" value="">
+    										9
+    									</label>
+    								</div>
+    							</li>
+    						</ul>
+    					</div>
+                        
+            <!-- Advanced Search -->
+            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" >More Filters</button>
+        
+                          <!-- Modal -->
+              <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Advanced Search</h4>
+                  </div>
+                  <div class="modal-body">
+                    
+                  <!-- Modal Body -->
+                    
+                      <!-- LeftDiv-->
+                      <div id = "leftDiv-modal">
+                                          
+                      <!-- Title -->
+                      <div class="input-group">
+                        <span class="input-group-addon" id="sizing-addon2">Title</span>
+                            <input type="text" class="form-control" placeholder="" aria-describedby="sizing-addon2">
+                      </div>                      
+                                     
+                      <!-- Media Type -->
+                      <div class="input-group">
+                        <span class="input-group-addon" id="sizing-addon2">Media Type</span>
+                            <input type="text" class="form-control" placeholder="" aria-describedby="sizing-addon2">
+                            <div class="input-group-btn">
+                                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class="caret"></span></button>
+                                <ul class="dropdown-menu dropdown-menu-right">
+                                  <li><a href="#">Image</a></li>
+                                  <li><a href="#">Video</a></li>
+                                  <li><a href="#">Audio</a></li>
+                                </ul>
+                          </div>
+                        </div>
+                                 
+                                        
+                      <!-- Mime Format -->
+                      <div class="input-group">
+                        <span class="input-group-addon" id="sizing-addon2">Mime Format</span>
+                            <input type="text" class="form-control" placeholder="" aria-describedby="sizing-addon2">
+                      </div>                     
+
+                      <!-- Creator -->
+                      <div class="input-group">
+                        <span class="input-group-addon" id="sizing-addon2">Creator</span>
+                            <input type="text" class="form-control" placeholder="" aria-describedby="sizing-addon2">
+                      </div>                      
+                      
+                      <!-- Publisher-->
+                      <div class="input-group">
+                        <span class="input-group-addon" id="sizing-addon2">Publisher</span>
+                            <input type="text" class="form-control" placeholder="" aria-describedby="sizing-addon2">
+                      </div>
+                      
+                      <!-- Language-->
+                      <div class="input-group">
+                        <span class="input-group-addon" id="sizing-addon2">Language</span>
+                            <input type="text" class="form-control" placeholder="" aria-describedby="sizing-addon2">
+                      </div>
+                        
+                        </div> <!-- LeftDiv-->
+                      
+                    <!-- RightDiv-->  
+                    <div id = "rightDiv-modal">
+                      
+                      <!-- Date -->
+                      <div class="input-group">
+                        <span class="input-group-addon" id="sizing-addon2">Date</span>
+                            <input type="text" class="form-control" placeholder="" aria-describedby="sizing-addon2">
+                      </div>
+                      
+                      <!-- Subjects-->
+                      <div class="input-group">
+                        <span class="input-group-addon" id="sizing-addon2">Subjects</span>
+                            <input type="text" class="form-control" placeholder="" aria-describedby="sizing-addon2">
+                      </div>
+                      
+                      <!-- Description-->
+                      <div class="input-group">
+                        <span class="input-group-addon" id="sizing-addon2">Description</span>
+                            <input type="text" class="form-control" placeholder="" aria-describedby="sizing-addon2">
+                      </div>
+                      
+                      <!-- Notes-->
+                      <div class="input-group">
+                        <span class="input-group-addon" id="sizing-addon2">Notes</span>
+                            <input type="text" class="form-control" placeholder="" aria-describedby="sizing-addon2">
+                      </div>
+                      
+                      <!-- File Keyword-->
+                      <div class="input-group">
+                        <span class="input-group-addon" id="sizing-addon2">File Keyword</span>
+                            <input type="text" class="form-control" placeholder="" aria-describedby="sizing-addon2">
+                      </div>
+                                  
+                    </div> <!-- RightDiv -->
+                      
+                  </div>
+                    
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <a href ="results.html"><button type="button" class="btn btn-primary">Search</button></a>
+                  </div>
+                </div>
+              </div>
+            </div> <!-- Modal -->  
+                        
+    				</div>
+    			</div>
+    		</div>
+
+<div class="portfolioContainer">
+    <div class=" col-md-3 webdesign illustrator">
+        <div class="gal-detail thumb">
+            <a href="item.html" class="image-popup" title="Screenshot-1">
+                <img src="http://lorempixel.com/400/280/nature/1/" class="thumb-img" alt="work-thumbnail">
+            </a>
+            <h4 class="text-center">Gallary Image</h4>
+            <div class="ga-border"></div>
+            <p class="text-muted text-center"><small>Photography</small></p>
+        </div>
+    </div>
+
+    <div class=" col-md-3 graphicdesign illustrator photography">
+        <div class="gal-detail thumb">
+            <a href="#" class="image-popup" title="Screenshot-2">
+                <img src="http://lorempixel.com/400/280/nature/2/" class="thumb-img" alt="work-thumbnail">
+            </a>
+            <h4 class="text-center">Gallary Image</h4>
+            <div class="ga-border"></div>
+            <p class="text-muted text-center"><small>Photography</small></p>
+        </div>
+    </div>
+
+    <div class=" col-md-3 webdesign graphicdesign">
+        <div class="gal-detail thumb">
+            <a href="#" class="image-popup" title="Screenshot-3">
+                <img src="http://lorempixel.com/400/280/nature/3/" class="thumb-img" alt="work-thumbnail">
+            </a>
+            <h4 class="text-center">Gallary Image</h4>
+            <div class="ga-border"></div>
+            <p class="text-muted text-center"><small>Photography</small></p>
+        </div>
+    </div>
+
+    <div class="col-md-3 illustrator photography">
+        <div class="gal-detail thumb">
+            <a href="#" class="image-popup" title="Screenshot-4">
+                <img src="http://lorempixel.com/400/280/nature/4/" class="thumb-img" alt="work-thumbnail">
+            </a>
+            <h4 class="text-center">Gallary Image</h4>
+            <div class="ga-border"></div>
+            <p class="text-muted text-center"><small>Photography</small></p>
+        </div>
+    </div>
+
+    <div class="col-md-3 graphicdesign photography">
+        <div class="gal-detail thumb">
+            <a href="#" class="image-popup" title="Screenshot-5">
+                <img src="http://lorempixel.com/400/280/nature/5/" class="thumb-img" alt="work-thumbnail">
+            </a>
+            <h4 class="text-center">Gallary Image</h4>
+            <div class="ga-border"></div>
+            <p class="text-muted text-center"><small>Photography</small></p>
+        </div>
+    </div>
+
+    <div class="col-md-3 webdesign photography">
+        <div class="gal-detail thumb">
+            <a href="#" class="image-popup" title="Screenshot-6">
+                <img src="http://lorempixel.com/400/280/nature/6/" class="thumb-img" alt="work-thumbnail">
+            </a>
+            <h4 class="text-center">Gallary Image</h4>
+            <div class="ga-border"></div>
+            <p class="text-muted text-center"><small>Photography</small></p>
+        </div>
+    </div>
+
+    <div class="col-md-3 illustrator photography graphicdesign">
+        <div class="gal-detail thumb">
+            <a href="#" class="image-popup" title="Screenshot-7">
+                <img src="http://lorempixel.com/400/280/nature/7/" class="thumb-img" alt="work-thumbnail">
+            </a>
+            <h4 class="text-center">Gallary Image</h4>
+            <div class="ga-border"></div>
+            <p class="text-muted text-center"><small>Photography</small></p>
+        </div>
+    </div>
+
+    <div class="col-md-3 graphicdesign photography webdesign">
+        <div class="gal-detail thumb">
+            <a href="#" class="image-popup" title="Screenshot-8">
+                <img src="http://lorempixel.com/400/280/nature/1/" class="thumb-img" alt="work-thumbnail">
+            </a>
+            <h4 class="text-center">Gallary Image</h4>
+            <div class="ga-border"></div>
+            <p class="text-muted text-center"><small>Photography</small></p>
+        </div>
+    </div>
+
+    <div class="col-md-3 webdesign illustrator">
+        <div class="gal-detail thumb">
+            <a href="#" class="image-popup" title="Screenshot-9">
+                <img src="http://lorempixel.com/400/280/nature/2/" class="thumb-img" alt="work-thumbnail">
+            </a>
+            <h4 class="text-center">Gallery Image</h4>
+            <div class="ga-border"></div>
+            <p class="text-muted text-center"><small>Photography</small></p>
+        </div>
+    </div>
+
+</div>
+
+</div>
+<div class="row gallery-bottom">
+    <div class="col-sm-offset-6 col-sm-6">
+        <ul class="pagination">
+            <li>
+                <a href="#" aria-label="Previous">
+                    <span aria-hidden="true">«</span>
+                </a>
+            </li>
+            <li class="active"><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li>
+                <a href="#" aria-label="Next">
+                    <span aria-hidden="true">»</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+</div>
+
+
+
+
+</div>
+
+  <!-- script references -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+</body>
+</html>

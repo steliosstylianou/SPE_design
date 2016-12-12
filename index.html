@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bristol Museum and Art Gallery</title>
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+   <link href="dist/css/flat-ui.css" rel="stylesheet">
+      <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+	<div class="row">
+    <div class="row">
+       <img src="assets/logo.png" class="img-responsive center-block" alt="logo" >
+    </div>
+    <div class="input-group input-group-lg col-xs-8 center-block">
+        <input type="text" class="form-control"  placeholder="Search&hellip;">
+        <div class="input-group-btn">
+            <a href="results.html"
+            <button type="button" class="btn btn-success btn-lg g">
+            <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+            </button></a>
+            
+            <!-- Advanced Search -->
+            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Advanced Search</button>
+        
+                          <!-- Modal -->
+              <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Advanced Search</h4>
+                  </div>
+                  <div class="modal-body">
+                    
+                  <!-- Modal Body -->
+                    
+                      <!-- LeftDiv-->
+                      <div id = "leftDiv-modal">
+                                          
+                      <!-- Title -->
+                      <div class="input-group">
+                        <span class="input-group-addon" id="sizing-addon2">Title</span>
+                            <input type="text" class="form-control" placeholder="" aria-describedby="sizing-addon2">
+                      </div>                      
+                                     
+                      <!-- Media Type -->
+                      <div class="input-group">
+                        <span class="input-group-addon" id="sizing-addon2">Media Type</span>
+                            <input type="text" class="form-control" placeholder="" aria-describedby="sizing-addon2">
+                            <div class="input-group-btn">
+                                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class="caret"></span></button>
+                                <ul class="dropdown-menu dropdown-menu-right">
+                                  <li><a href="#">Image</a></li>
+                                  <li><a href="#">Video</a></li>
+                                  <li><a href="#">Audio</a></li>
+                                </ul>
+                          </div>
+                        </div>
+                                 
+                                        
+                      <!-- Mime Format -->
+                      <div class="input-group">
+                        <span class="input-group-addon" id="sizing-addon2">Mime Format</span>
+                            <input type="text" class="form-control" placeholder="" aria-describedby="sizing-addon2">
+                      </div>                     
+
+                      <!-- Creator -->
+                      <div class="input-group">
+                        <span class="input-group-addon" id="sizing-addon2">Creator</span>
+                            <input type="text" class="form-control" placeholder="" aria-describedby="sizing-addon2">
+                      </div>                      
+                      
+                      <!-- Publisher-->
+                      <div class="input-group">
+                        <span class="input-group-addon" id="sizing-addon2">Publisher</span>
+                            <input type="text" class="form-control" placeholder="" aria-describedby="sizing-addon2">
+                      </div>
+                      
+                      <!-- Language-->
+                      <div class="input-group">
+                        <span class="input-group-addon" id="sizing-addon2">Language</span>
+                            <input type="text" class="form-control" placeholder="" aria-describedby="sizing-addon2">
+                      </div>
+                        
+                        </div> <!-- LeftDiv-->
+                      
+                    <!-- RightDiv-->  
+                    <div id = "rightDiv-modal">
+                      
+                      <!-- Date -->
+                      <div class="input-group">
+                        <span class="input-group-addon" id="sizing-addon2">Date</span>
+                            <input type="text" class="form-control" placeholder="" aria-describedby="sizing-addon2">
+                      </div>
+                      
+                      <!-- Subjects-->
+                      <div class="input-group">
+                        <span class="input-group-addon" id="sizing-addon2">Subjects</span>
+                            <input type="text" class="form-control" placeholder="" aria-describedby="sizing-addon2">
+                      </div>
+                      
+                      <!-- Description-->
+                      <div class="input-group">
+                        <span class="input-group-addon" id="sizing-addon2">Description</span>
+                            <input type="text" class="form-control" placeholder="" aria-describedby="sizing-addon2">
+                      </div>
+                      
+                      <!-- Notes-->
+                      <div class="input-group">
+                        <span class="input-group-addon" id="sizing-addon2">Notes</span>
+                            <input type="text" class="form-control" placeholder="" aria-describedby="sizing-addon2">
+                      </div>
+                      
+                      <!-- File Keyword-->
+                      <div class="input-group">
+                        <span class="input-group-addon" id="sizing-addon2">File Keyword</span>
+                            <input type="text" class="form-control" placeholder="" aria-describedby="sizing-addon2">
+                      </div>
+                                  
+                    </div> <!-- RightDiv -->
+                      
+                  </div>
+                    
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <a href ="results.html"><button type="button" class="btn btn-primary">Search</button></a>
+                  </div>
+                </div>
+              </div>
+            </div> <!-- Modal -->   
+            
+        </div>
+    </div>
+	</div>
+</div>
+
+  <!-- script references -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
